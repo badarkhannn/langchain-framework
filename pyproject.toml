@@ -1,0 +1,35 @@
+[project]
+name = "langchain-framework"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Badar Khan", email = "badarkhanmcs@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.11.0",
+    "google-generativeai>=0.8.5",
+    "huggingface-hub>=0.31.1",
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.25",
+    "langchain-anthropic>=0.3.13",
+    "langchain-community>=0.3.23",
+    "langchain-core>=0.3.59",
+    "langchain-google-genai>=2.0.10",
+    "langchain-huggingface>=0.2.0",
+    "langchain-openai>=0.3.16",
+    "numpy>=2.2.5",
+    "openai>=1.78.0",
+    "pydantic>=2.11.4",
+    "python-dotenv>=1.1.0",
+    "scikit-learn>=1.6.1",
+    "transformers>=4.51.3",
+]
+
+[project.scripts]
+langchain-framework = "langchain_framework:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
