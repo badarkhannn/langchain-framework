@@ -9,3 +9,6 @@ wheels/
 # Virtual environments
 .venv
 src/local_model/
+
+# .env
+.env
