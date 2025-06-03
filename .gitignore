@@ -9,6 +9,5 @@ wheels/
 # Virtual environments
 .venv
 local_model
-
 # .env
 .env
